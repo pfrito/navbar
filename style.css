@@ -8,17 +8,18 @@ body {
 
 .menu-container {
   width: 900px;
-  height: 100px;
   background: linear-gradient(to right, #5a5786, #021a5e);
   border-radius: 25px;
 }
 
-span {
+.navbar-text span {
   font-size: 18px;
   transition: font-size 0.1s;
+  margin-right: 30px;
+  color: rgb(255, 255, 255) !important;
 }
 
-span:hover {
+.navbar-text span:hover {
   font-size: 22px;
 }
 
@@ -29,7 +30,7 @@ span:hover {
   align-items: center;
 }
 
-.items-menu > li {
+.items-menu > .d-none {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,14 +44,9 @@ span:hover {
   z-index: 10;
 }
 
-.items-menu > li:hover {
+.items-menu > .d-none:hover {
   width: 70px;
   height: 70px;
-}
-
-span {
-  margin-right: 30px;
-  color: rgb(255, 255, 255) !important;
 }
 
 .navbar-text > a > img {
@@ -61,5 +57,11 @@ span {
 @media (max-width: 900px) {
   .menu-container {
     border-radius: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .items-menu {
+    align-items: start;
   }
 }

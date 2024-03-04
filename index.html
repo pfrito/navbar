@@ -14,11 +14,23 @@
     <title>Menu Neon</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm menu-container">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse">
+    <nav class="navbar navbar-dark navbar-expand-sm menu-container">
+      <div class="container-fluid justify-content-end">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto items-menu">
-            <li class="nav-item ms-4">
+            <li class="nav-item ms-4 d-none d-sm-inline-flex">
               <a class="nav-link" href="#">
                 <svg style="width: 35px; height: 35px" viewBox="0 0 24 24">
                   <path
@@ -28,7 +40,7 @@
                 </svg>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-inline-flex">
               <a class="nav-link" href="#">
                 <svg style="width: 35px; height: 35px" viewBox="0 0 24 24">
                   <path
@@ -38,7 +50,7 @@
                 </svg>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-inline-flex">
               <a class="nav-link" href="#">
                 <svg style="width: 35px; height: 35px" viewBox="0 0 24 24">
                   <path
@@ -48,7 +60,7 @@
                 </svg>
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-sm-inline-flex">
               <a class="nav-link" href="#">
                 <svg style="width: 35px; height: 35px" viewBox="0 0 24 24">
                   <path
@@ -56,6 +68,26 @@
                     d="M6,17C6,15 10,13.9 12,13.9C14,13.9 18,15 18,17V18H6M15,9A3,3 0 0,1 12,12A3,3 0 0,1 9,9A3,3 0 0,1 12,6A3,3 0 0,1 15,9M3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5C3.89,3 3,3.9 3,5Z"
                   />
                 </svg>
+              </a>
+            </li>
+            <li class="nav-item d-sm-none">
+              <a class="nav-link" href="">
+                <h3 class="display-6">Home</h3>
+              </a>
+            </li>
+            <li class="nav-item d-sm-none">
+              <a class="nav-link" href="">
+                <h3 class="display-6">Contact</h3>
+              </a>
+            </li>
+            <li class="nav-item d-sm-none">
+              <a class="nav-link" href="">
+                <h3 class="display-6">Photos</h3>
+              </a>
+            </li>
+            <li class="nav-item d-sm-none">
+              <a class="nav-link" href="">
+                <h3 class="display-6">Profile</h3>
               </a>
             </li>
           </ul>
