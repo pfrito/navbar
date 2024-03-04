@@ -57,3 +57,9 @@ span {
   margin-right: 25px;
   border-radius: 50px;
 }
+
+@media (max-width: 900px) {
+  .menu-container {
+    border-radius: 0px;
+  }
+}
