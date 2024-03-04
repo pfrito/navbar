@@ -7,20 +7,12 @@ body {
 }
 
 .menu-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 900px;
   height: 100px;
   background: linear-gradient(to right, #5a5786, #021a5e);
   border-radius: 25px;
 }
-.items-menu {
-  margin: 0;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
+
 span {
   font-size: 18px;
   transition: font-size 0.1s;
@@ -29,8 +21,15 @@ span {
 span:hover {
   font-size: 22px;
 }
+
+.items-menu {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .items-menu > li {
-  color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,22 +47,13 @@ span:hover {
   width: 70px;
   height: 70px;
 }
-a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 span {
   margin-right: 30px;
-  color: white;
+  color: rgb(255, 255, 255) !important;
 }
-.profile > a > img {
+
+.navbar-text > a > img {
   margin-right: 25px;
   border-radius: 50px;
 }
