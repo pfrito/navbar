@@ -8,18 +8,18 @@ body {
 
 .menu-container {
   width: 900px;
-  background: linear-gradient(to right, #5a5786, #021a5e);
+  background: linear-gradient(to left, #5a5786, #021a5e);
   border-radius: 25px;
 }
 
-.navbar-text span {
+.navbar-brand span {
   font-size: 18px;
   transition: font-size 0.1s;
   margin-right: 30px;
   color: rgb(255, 255, 255) !important;
 }
 
-.navbar-text span:hover {
+.navbar-brand span:hover {
   font-size: 22px;
 }
 
@@ -49,7 +49,7 @@ body {
   height: 70px;
 }
 
-.navbar-text > a > img {
+.navbar-brand > a > img {
   margin-right: 25px;
   border-radius: 50px;
 }
