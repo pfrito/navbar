@@ -8,14 +8,14 @@ body {
 
 .menu-container {
   width: 900px;
-  background: linear-gradient(to left, #5a5786, #021a5e);
+  background: linear-gradient(to right, #5a5786, #021a5e);
   border-radius: 25px;
 }
 
 .navbar-brand span {
   font-size: 18px;
   transition: font-size 0.1s;
-  margin-right: 30px;
+  margin-right: 20px;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -25,6 +25,7 @@ body {
 
 .items-menu {
   margin: 0;
+  margin-left: 12px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -50,7 +51,6 @@ body {
 }
 
 .navbar-brand > a > img {
-  margin-right: 25px;
   border-radius: 50px;
 }
 
