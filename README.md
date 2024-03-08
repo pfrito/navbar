@@ -4,7 +4,6 @@ It's made with HTML, CSS, Bootstrap 5 and a bit of JavaScript, **Enjoy it**
 
 ## Design
 ![navbar expanded](/assets/navbar-expanded.jpg)
-![mobile navbar menu](/assets/navbar-mobile-menu.jpg)
 
 ## Contribution
 
